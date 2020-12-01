@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<title>Worth LLC</title>
+		<link href="css/all.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+	</head>
+	
+	
+	<body>
+		<header class="inner-page wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+			<div class="main-navigate">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="sidenav" id="mySidenav">
+							<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a>
+						</div>
+						
+						<div class="mobilecontainer hidden-lg hidden-md">
+							<span class="pull-right" onclick="openNav()" style="font-size:30px;cursor:pointer">☰</span>
+						</div>
+						
+						<div class="col-md-2 col-sm-2 col-xs-12">
+							<div class="logo wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+								<a href="index.html"><img alt="" class="img-responsive" src="images/logo.png"></a>
+							</div>
+						</div>
+						
+						<div class="col-md-10 col-sm-10 col-xs-12">
+							<div class="row wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+								<div class="col-md-9 col-sm-9 col-xs-12">
+									<div class="navigation">
+										<ul class="navbar-set hidden-xs hidden-sm">
+											<li class="active"><a href="shop.html">Men</a></li>
+											<li><a href="shop.html">Women</a></li>
+											<li><a href="shop.html">Accessories</a></li>
+											<li><a href="article.html">Articles</a></li>
+											
+											<li><a href="#">About</a></li>
+											<li><a href="contact.html">Contact</a></li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-3 col-xs-12 text-right">
+									<select>
+										<option>$ US Dollar</option>
+										<option>£ Euro</option>
+									</select>
+
+									<select>
+										<option>EN</option>
+										<option>FRN</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="row wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+								<div class="col-md-8">
+									<div class="searchbox">
+										<select>
+											<option>Men</option>
+											<option>Women</option>
+											<option>Kids</option>
+										</select>
+										<input type="search" class="search-input" placeholder="I Want_____">
+										<button class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+									</div>
+								</div>
+
+								<div class="col-md-2">
+									<div class="login-links">
+										<a href="creat-account.html">Login</a>
+										<a href="#">Wishlist(0)</a>
+									</div>
+								</div>
+
+								<div class="col-md-2">
+									<a class="cart-btn" href="cart.html">
+										$945.99 <span>2 Items</span>
+										<img class="img-responsive" src="images/cart-icon.png" alt="icon"/>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</header>
+		
+
+
+		<section class="cart_page sec-padd all-section">
+	        <div class="container-fluid">
+	        	<div class="row">
+					<div class="col-sm-12">
+						<div class="theme-heading">
+							<h2>Shopping Cart</h2>
+						</div>
+					</div>
+				</div>
+
+	            <div class="row">
+	                <div class="col-sm-12">
+	                    <div class="table-responsive cart_table">
+	                        <table>
+	                            <thead>
+	                                <tr>
+	                                    <th class="th-pro"><h4>Description</h4></th>
+	                                    <th><h4>Availaiblity</h4></th>
+	                                    <th><h4>Retail</h4></th>
+	                                    <th><h4>QUANTITY</h4></th>
+	                                    <th><h4>TOTAL</h4></th>
+	                                </tr>
+	                            </thead>
+	                            <tbody>
+	                                <tr>
+	                                    <td class="td-image"><img src="images/cart_img.jpg" alt="cart">
+	                                        <h3>Your Heading <br/>goes here</h3>
+	                                    </td>
+	                                    <td><h4>In Stock</h4></td>
+	                                    <td><h6>$79.9</h6></td>
+	                                    <td><form id="myform" method="POST" class="quantity" action="#">
+	                                          <input type="button" value="-" class="qtyminus minus" field="quantity">
+	                                          <input type="text" name="quantity" value="0" class="qty">
+	                                          <input type="button" value="+" class="qtyplus plus" field="quantity">
+	                                        </form></td>
+	                                        <td class="grey"><h6>$79.9</h6></td>
+	                                </tr>
+	                                <tr>
+	                                    <td class="td-image"><img src="images/cart_img.jpg" alt="cart">
+	                                        <h3>Your Heading <br/>goes here</h3>
+	                                    </td>
+	                                    <td><h4>In Stock</h4></td>
+	                                    <td><h6>$79.9</h6></td>
+	                                    <td><form id="myform" method="POST" class="quantity" action="#">
+	                                          <input type="button" value="-" class="qtyminus minus" field="quantity">
+	                                          <input type="text" name="quantity" value="0" class="qty">
+	                                          <input type="button" value="+" class="qtyplus plus" field="quantity">
+	                                        </form>
+	                                    </td>
+	                                    <td class="grey"><h6>$79.9</h6></td>
+	                                </tr>
+	                                <tr>
+	                                    <td class="td-image"><img src="images/cart_img.jpg" alt="cart">
+	                                        <h3>Your Heading <br/>goes here</h3>
+	                                    </td>
+	                                    <td><h4>In Stock</h4></td>
+	                                    <td><h6>$79.9</h6></td>
+	                                    <td><form id="myform" method="POST" class="quantity" action="#">
+	                                          <input type="button" value="-" class="qtyminus minus" field="quantity">
+	                                          <input type="text" name="quantity" value="0" class="qty">
+	                                          <input type="button" value="+" class="qtyplus plus" field="quantity">
+	                                        </form>
+	                                    </td>
+	                                    <td class="grey"><h6>$79.9</h6></td>
+	                                </tr>
+	                            </tbody>
+	                        </table>
+	                        <div class="col-sm-12">
+	                            <div class="cart_btns">
+	                                <a href="shop.html" class="primary-btn dark-bg ">CONTINUE SHOPPING</a>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+
+
+	    <section class="shipping all-section">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-4">
+	                    <div class="cupon">
+	                        <h6>discount code</h6>
+	                        <p>Enter discount code if you have one</p>
+	                        <input type="text" name="code" placeholder="Your Code...">
+	                        <a href="#" class="primary-btn dark-bg">APPLY CODE</a>
+	                    </div>
+	                </div>
+	                <div class="col-sm-4">
+	                    <div class="tax">
+	                        <h6>estimate shipping &amp; tax</h6>
+	                        <h4></h4>
+	                        <p>Enter your destination to get a shipping estimate</p>
+	                        <label for="country">Country*</label>
+	                        <select name="country">
+	                            <option value="choose">Choose an Option..</option>
+	                            <option value="country1">Country 1</option>
+	                            <option value="country2">Country 2</option>
+	                        </select>
+	                        <label for="state">State / Province*</label>
+	                        <select name="state">
+	                            <option value="choose">Choose an Option..</option>
+	                            <option value="State1">State 1</option>
+	                            <option value="State2">State 2</option>
+	                        </select>
+	                        <label for="zip_code">Zip / Postal code*</label>
+	                        <select name="zip_code">
+	                            <option value="choose">Choose an Option..</option>
+	                            <option value="zip_code1">zipcode 1</option>
+	                            <option value="zip_code2">zipcode 2</option>
+	                        </select>
+	                        <a href="#" class="primary-btn dark-bg ">GET A QUOTE</a>
+	                    </div>
+	                </div>
+	                <div class="col-sm-4">
+	                    <div class="total_a">
+	                        <p>Subtotal:<span>$599</span></p>
+	                        <p class="bold">Grand Total:<span>$599</span></p>
+	                        <a href="checkout.html" class="primary-btn dark-bg">Proceed to Checkout</a>
+	                        <p class="multi"><a href="#">Checkout with Multiple Address</a></p>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+    	</section>
+
+
+
+
+    	<section class="about-sec sec-padd">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="theme-heading">
+							<h3>About Worth, llc</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+							<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Viv</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="about-box">
+							<img class="img-responsive" src="images/about-img-1.jpg" alt="icon"/>
+							<div class="about-text">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="about-box">
+							<img class="img-responsive" src="images/about-img-2.jpg" alt="icon"/>
+							<div class="about-text">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
+		
+		<!--Footer Content Start-->
+		<footer id="footer" class="sec-padd wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+						<div class="footer_head">
+						   <h2>Category</h2>
+						</div>
+						<ul>
+							<li><a href="#">Men</a></li>
+							<li><a href="#">Women</a></li>
+							<li><a href="#">T-shirts</a></li>
+							<li><a href="#">Youngs</a></li>
+							<li><a href="#">Kids</a></li>
+							<li><a href="#">Teens</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3 col-sm-3 col-xs-12 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+						<div class="footer_head">
+						   <h2>Customer Service</h2>
+						</div>
+						<ul>
+							<li><a href="#">My Wishlist</a></li>
+							<li><a href="#">My Order</a></li>
+							<li><a href="#">Orders And Returns</a></li>
+							<li><a href="#">Contacts</a></li>
+							<li><a href="#">Site Map</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+						<div class="footer_head">
+						   <h2>My Account</h2>
+						</div>
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Your Account</a></li>
+							<li><a href="#">Address Book</a></li>
+							<li><a href="#">Product Reviews</a></li>
+						</ul>
+					</div>
+					
+					<div class="col-md-3 col-sm-3 col-xs-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+						<div class="footer_head">
+						   <h2>Newsletter</h2>
+						</div>
+						<p>Join thousands of other people subscribe to our news</p>
+						<form>
+							<input type="email" name="" placeholder="Input your email">
+							<button><i class="fa fa-caret-right" aria-hidden="true"></i></button>
+						</form>
+
+						<ul class="footer-social">
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>			
+		</footer>
+		<div class="copyright-sec wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p>Copyrights 2020 <a href="#">Lorem Ipsum</a> All Rights Reserved.</p>
+					</div>
+					
+					<div class="col-md-6 col-sm-6 col-xs-12 cr-anchor">
+						<button onclick="topFunction()" id="myBtn" title="Go to top">Top <i class="fa fa-caret-up" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/all.js"></script>
+		<script src="js/custom.js"></script> 
+	</body>
+</html>
